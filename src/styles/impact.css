@@ -1,0 +1,49 @@
+.impact-section {
+    height: 1226px;
+    background: var(--color-primary);
+}
+
+.impact-title {
+    font-weight: 900;
+    font-size: 56px;
+    margin-bottom: 40px;
+    color: var(--color-text-primary);
+}
+
+.impact-subsection {
+    display: flex;
+    gap: 80px;
+}
+
+.impact-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+
+.impact-content-item {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+
+}
+
+.impact-content-item-text h3{
+   color: var(--color-text-primary);
+   font-weight: 700;
+   font-size: 32px;
+}
+
+.impact-content-item-text p{
+    color: var(--color-text-primary);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.impact-content-item-icon img{
+    width: 44px;
+    height: 44px;
+    margin-top: 28px;
+    border-radius: 10%;
+}

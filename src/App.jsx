@@ -1,9 +1,27 @@
 
 import './styles/Navbar.css'
-import './styles/idk.css'
+import './styles/impact.css'
 
 import StatsDisplay from './components/stats-display'
+import ImpactDisplay from './components/impact-display'
 
+const enums = {
+	NAVBAR: {
+		LOGO: {
+			SRC: "./src/assets/logo-tree.svg",
+			ALT: "Logo",
+			CLASS: "logo-image"
+		},
+		LINKS: [
+			{ TEXT: "Palm oil costs", CLASS: "link" },
+			{ TEXT: "How To Help", CLASS: "link" }
+		],
+		BUTTON: {
+			TEXT: "Make a change!",
+			CLASS: "secondary-button"
+		}
+	}
+}
 
 function App() {
 	return (
@@ -55,9 +73,9 @@ function App() {
 
 					<StatsDisplay />
 
-					<div className='idk section-padding'>
-						text
-					</div>
+					<ImpactDisplay />
+
+
 
 				</div>
 			</div>
