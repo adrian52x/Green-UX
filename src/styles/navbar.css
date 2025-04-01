@@ -1,13 +1,15 @@
+.container-navbar {
+    background: var(--color-secondary);
+}
+
 .navbar {
     display: flex;
-    /* width: 1366px; */
+    width: 1366px;
     /* height: 84px; */
     justify-content: space-between;
     align-items: center;
-    background: var(--color-secondary);
     color: white;
-
-    /* margin: 0 auto; */
+    margin: auto;
 }
 
 .navbar .items {

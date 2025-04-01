@@ -1,9 +1,15 @@
+.container-stats {
+    background: var(--color-secondary);
+}
+
 .stats-section {
     display: flex;
+    width: 1366px;
     height: 404px;
     justify-content: space-between;
     align-items: center;
     background: var(--color-secondary);
+    margin: auto;
 }
 
 .stats-item {

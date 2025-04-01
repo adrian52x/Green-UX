@@ -19,81 +19,22 @@ body {
   --color-text-primary: #E6E6CF;
 }
 
-.wrapper {
+/* .wrapper {
   width: 100%;
   display: flex;
   justify-content: center;
   background: #738173;
-}
+} */
 
-.container {
+/* .container {
   width: 1366px;
-}
+} */
 
 .section-padding {
   padding: var(--section-padding);
 }
 
-/* Hero Section */
-.hero-section {
-  display: flex;
-  position: relative;
 
-  height: 720px; 
-  background: var(--color-primary); 
-  margin: 0 auto; 
-  overflow: hidden;
-
-}
-
-/* Left Side: Trees -- REMOVE- unnecessary */
-.hero-left {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.backtree {
-  position: absolute;
-  width: 648px;
-  height: 800px;
-  top: -50px;
-  left: -50.8px;
-}
-
-.tree {
-  position: absolute;
-  width: 592px;
-  height: 522px;
-  top: 267px;
-  left: -40px;
-}
-
-/* Right Side: Text Frame */
-.hero-right {
-  position: absolute;
-  top: 115px;
-  width: 627px;
-  left: 608px;
-}
-
-.hero-main-text {
-  font-weight: 900;
-  font-size: 80px;
-  line-height: 1; /* Adjusted for proper spacing */
-  letter-spacing: 0;
-  color: var(--color-text-primary);
-  margin-bottom: 30px;
-}
-
-.hero-secondary-text {
-  font-family: Arial, sans-serif;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 1; /* 100% line height */
-  color: var(--color-text-primary);
-  margin-bottom: 50px;
-}
 
 .primary-button {
   width: 184px;
