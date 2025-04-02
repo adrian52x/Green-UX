@@ -1,0 +1,119 @@
+.container-form {   
+    background: var(--color-secondary);
+}
+
+.form-section {
+    width: 1366px;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+.form-title {
+    font-weight: 900;
+    font-size: 56px;
+    padding-bottom: 50px;
+    color: var(--color-text-primary);
+}
+
+.wrapper {
+    width: 834px;
+}
+
+.form-sentence {
+    width: 710px;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+    color: var(--color-text-primary);
+    margin-bottom: 24px;
+    
+}
+
+.form-checklist {
+    display: flex;
+    flex-direction: column;
+    gap: 24px; /* Space between check items */
+    margin-bottom: 30px;
+}
+
+.form-check-item {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between icon and text */
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+    color: var(--color-text-primary);
+}
+
+.form-check-icon {
+    width: 16px;
+    height: 16px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    gap: 5px; /* Space between label and input */
+    margin-bottom: 20px; /* Space between form groups */
+    color: var(--color-text-primary);
+}
+
+.form-group.form-checkbox {
+    flex-direction: row;
+    align-items: center;
+    gap: 10px; /* Space between checkbox and label */
+}
+
+.form-group.form-checkbox input {
+    width: 20px; 
+    height: 20px; 
+    border: 2px solid var(--color-button-primary);
+    border-radius: 5px; 
+    appearance: none; 
+    cursor: pointer; 
+}
+
+.form-group.form-checkbox input:checked {
+    background-color: var(--color-button-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.form-input {
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: var(--color-text-primary);
+}
+
+.form-note {
+    font-size: 12px;
+    font-weight: 400;
+    text-align: right;
+    color: #888;
+    margin-top: 5px;
+}
+
+.form-button {
+    width: 150px;
+    height: 38px;
+    background-color: var(--color-primary);
+    color: var(--color-text-primary);
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    align-self: flex-start; /* Align button to the left */
+}
+
+.form-button:hover {
+    background-color: var(--color-primary-hover);
+}

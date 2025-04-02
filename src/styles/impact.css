@@ -5,7 +5,7 @@
 .impact-section {
     width: 1366px;
     margin: auto;
-    background: var(--color-primary);
+    /* background: var(--color-primary); */
 }
 
 .impact-title {
