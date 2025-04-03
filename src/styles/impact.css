@@ -1,11 +1,13 @@
 .container-impact {
+    position: relative;
+    overflow: hidden;
     background: var(--color-primary);
 }
 
 .impact-section {
-    width: 1366px;
+    width: 1300px;
     margin: auto;
-    /* background: var(--color-primary); */
+    background: var(--color-primary);
 }
 
 .impact-title {
@@ -52,3 +54,19 @@
     margin-top: 28px;
     border-radius: 10%;
 }
+
+.impact-image {
+    z-index: 2;
+}
+
+
+
+.backtree-impact-section__1 {
+    position: absolute;
+    width: 648px;
+    height: 800px;
+    top: -18%;
+    left: 80%;
+    z-index: 1;
+    transform: scaleX(-1);
+  }

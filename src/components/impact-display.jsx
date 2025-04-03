@@ -5,6 +5,7 @@ import '../styles/impact.css'
 export default function ImpactDisplay() {
     return (
         <div className="container-impact">
+            <img src="./src/assets/backtree.svg" alt="backtree" className="backtree-impact-section__1" />
             <div className='impact-section section-padding'>
                 <h2 className="impact-title">The Hidden Cost of Palm Oil</h2>
                 <div className="impact-subsection">

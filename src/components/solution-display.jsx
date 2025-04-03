@@ -3,6 +3,8 @@ import '../styles/solution.css'
 export default function SolutionDisplay() {
     return (
         <div className="container-solution">
+            <img src="./src/assets/backtree.svg" alt="backtree" className="backtree-solution-section__1" />
+            <img src="./src/assets/backtree.svg" alt="backtree" className="backtree-solution-section__2" />
             <div className="solution-section section-padding">
                 <h2 className="solution-title">What can you do?</h2>
                 <div className="solution-grid">

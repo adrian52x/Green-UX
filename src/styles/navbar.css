@@ -4,12 +4,13 @@
 
 .navbar {
     display: flex;
-    width: 1366px;
+    width: 1300px;
     /* height: 84px; */
     justify-content: space-between;
     align-items: center;
     color: white;
     margin: auto;
+    background: var(--color-secondary);
 }
 
 .navbar .items {
