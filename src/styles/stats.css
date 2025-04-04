@@ -47,7 +47,23 @@
     .stats-section {
         flex-direction: column;
         width: 100%;
-        height: auto;
+        height: 634px;
         padding: 0;
+        gap: 70px;
+        justify-content: center;
+    }
+
+    .stats-item {
+        width: 327px;
+        height: 120px;
+    }
+
+    .stat-number {
+        font-size: 48px;
+    }
+
+    .stat-description {
+        margin: 0;
+        font-size: 16px;
     }
 }

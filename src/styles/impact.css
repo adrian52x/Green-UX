@@ -29,30 +29,32 @@
     padding: 100px 0;
 }
 
-.impact-content-item {
-    display: flex;
-    gap: 20px;
-    align-items: flex-start;
 
+
+
+
+.impact-content-item-header {
+    display: flex;
+    gap: 10px;
 }
 
-.impact-content-item-text h3{
-   color: var(--color-text-primary);
-   font-weight: 700;
-   font-size: 32px;
+.impact-content-item-header h3{
+    color: var(--color-text-primary);
+    font-weight: 700;
+    font-size: 32px;
+ }
+
+.impact-content-item-header img{
+    width: 44px;
+    height: 44px;
+    margin-top: 28px;
+    border-radius: 10%;
 }
 
 .impact-content-item-text p{
     color: var(--color-text-primary);
     font-weight: 400;
     font-size: 18px;
-}
-
-.impact-content-item-icon img{
-    width: 44px;
-    height: 44px;
-    margin-top: 28px;
-    border-radius: 10%;
 }
 
 .impact-image {
@@ -83,19 +85,72 @@
 
 @media (max-width: 500px) {
     .backtree-impact-section__1,
-    .backtree-impact-section__2,
-    .impact-image {
+    .backtree-impact-section__2 {
       display: none;
     }
 
     .impact-section {
         width: 100%;
         padding: 0;
+        margin-bottom: 70px;
+    }
+
+    .impact-subsection {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        width: 100%;
     }
 
     .impact-title {
+        width: 338px;
         font-weight: 700;
-        font-size: 30px;
+        font-size: 32px;
+        margin: auto;
+        padding-top: 50px;
     }
+
+    .impact-image {
+        width: 186px;
+        height: 331px;
+        transform: rotate(90deg);
+        margin: auto;
+    }
+
+    .impact-image img {
+        width: 100%;
+        height: 331px;
+        border-radius: 25px;
+    }
+
+    .impact-content {
+        /* display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 100px 0; */
+        padding: 0;
+    }
+
+    .impact-content-item {
+        display: flex;
+        flex-direction: column;
+        padding: 0 50px;
+    }
+
+    .impact-content-item-header h3{
+        font-weight: 700;
+        font-size: 24px;
+     }
+
+     .impact-content-item-header img{
+        width: 32px;
+        height: 32px;
+        margin: 22px 0;
+    }
+
+    .impact-content-item-text p{
+        font-size: 16px;
+    }
+
+    
 }
-  
