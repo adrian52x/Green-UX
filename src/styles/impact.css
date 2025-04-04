@@ -70,3 +70,21 @@
     z-index: 1;
     transform: scaleX(-1);
   }
+
+@media (max-width: 500px) {
+    .backtree-impact-section__1,
+    .impact-image {
+      display: none;
+    }
+
+    .impact-section {
+        width: 100%;
+        padding: 0;
+    }
+
+    .impact-title {
+        font-weight: 700;
+        font-size: 30px;
+    }
+}
+  

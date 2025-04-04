@@ -78,7 +78,16 @@
     opacity: 0.5;
 }
 
-.footer-end {
-    background: var(--color-secondary);
-    height: 150px;
-}
+
+@media (max-width: 500px) {
+    .footer-section {
+        width: 100%;
+        padding: 0;
+    }
+
+    .footer-layout {
+        display: block;
+        gap: 20px;
+    }
+
+}    

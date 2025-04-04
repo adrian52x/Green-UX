@@ -35,13 +35,15 @@ export default function Hero() {
 
                 <div className="hero-right">
                     <div className="hero-main-text">
-                        We’re losing rainforest every second.
+                        We’re losing <br />
+                        rainforest <br />
+                        every second.
                     </div>
                     <div className="hero-secondary-text">
                         Act now to protect what’s left!.
                     </div>
                     <button className="primary-button">
-                        <span>Make a change!</span>
+                        <span>Sign our petition!</span>
                     </button>
                 </div>
             </div>

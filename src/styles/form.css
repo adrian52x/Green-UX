@@ -118,3 +118,27 @@
 .form-button:hover {
     background-color: var(--color-primary-hover);
 }
+
+
+@media (max-width: 500px) {
+
+    .form-section {
+        width: 100%;
+        padding: 0;
+    }
+
+    .form-section .form-title {
+        font-size: 20px;
+        padding-top: 20px;
+        margin: 0;
+    }
+    .wrapper {
+        width: 100%;
+    }
+
+    .form-sentence {
+        width: 100%;
+        font-size: 14px;
+    }
+
+}

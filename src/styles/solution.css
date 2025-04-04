@@ -99,3 +99,28 @@
     left: -15%;
     z-index: 1;
   }
+
+  @media (max-width: 500px) {
+    .backtree-solution-section__1,
+    .backtree-solution-section__2 {
+        display: none;
+    }
+
+    .solution-section {
+        width: 100%;
+        padding: 0;
+    }
+
+    .solution-title {
+        font-size: 32px;
+        padding-top: 20px;
+        margin: 0;
+    }
+
+    .solution-grid {
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        gap: 20px; /* Adjust gap between items */
+    }
+}
+  

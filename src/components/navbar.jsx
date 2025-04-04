@@ -11,7 +11,10 @@ export default function Navbar() {
                 <div className="items">
                     <div className="link">Palm oil costs</div>
                     <div className="link">How To Help</div>
-                    <button className="secondary-button">Make a change!</button>
+                    <button className="secondary-button">Sign our petition!</button>
+                </div>
+                <div className="burger-menu">
+                    <img src="./src/assets/menu.png" alt="menu" className="menu-image" />
                 </div>
             </div>
         </div>

@@ -41,3 +41,13 @@
     color: var(--color-text-primary);
     margin-right: 10px;
 }
+
+@media (max-width: 500px) {
+
+    .stats-section {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+}

@@ -49,3 +49,57 @@
     text-align: center;
     color: var(--color-text-primary); 
 }
+
+.burger-menu {
+    display: none; /* Hidden by default */
+}
+
+.burger-menu img {
+    display: none; /* Hidden by default */
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+/* Responsive styles for mobile */
+@media (max-width: 500px) {
+    .container-navbar {
+        display: block; /* Ensure the navbar container is visible */
+        
+    }
+
+    .navbar {
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        width: 100%;
+        height: 60px;
+        padding: 0 35px; /* Add padding for mobile */
+        box-sizing: border-box;
+    }
+    
+    .logo-image {
+        width: 19px; 
+        height: 24px; 
+    }
+    
+    .logo-text {
+        font-weight: 900;
+        font-size: 16px;
+
+    }
+
+    .navbar .items {
+        display: none; /* Hide the links on mobile */
+    }
+
+    .burger-menu {
+        display: block; /* Show the burger menu icon */
+    }
+
+    .burger-menu img {
+        display: block; /* Show the burger menu icon */
+        width: 15px;
+        height: 15px;
+    }
+}
