@@ -81,17 +81,7 @@
     
 }
 
-.backtree-solution-section__1 {
-    position: absolute;
-    width: 648px;
-    height: 800px;
-    top: -25%;
-    left: 78%;
-    z-index: 1;
-    transform: scaleX(-1);
-  }
-
-  .backtree-solution-section__2 {
+  .backtree-solution-section__1 {
     position: absolute;
     width: 648px;
     height: 800px;
@@ -101,8 +91,7 @@
   }
 
   @media (max-width: 500px) {
-    .backtree-solution-section__1,
-    .backtree-solution-section__2 {
+    .backtree-solution-section__1 {
         display: none;
     }
 

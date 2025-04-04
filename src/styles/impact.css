@@ -71,8 +71,19 @@
     transform: scaleX(-1);
   }
 
+  .backtree-impact-section__2 {
+    position: absolute;
+    width: 648px;
+    height: 800px;
+    top: 60%;
+    left: 78%;
+    z-index: 1;
+    transform: scaleX(-1);
+}
+
 @media (max-width: 500px) {
     .backtree-impact-section__1,
+    .backtree-impact-section__2,
     .impact-image {
       display: none;
     }
