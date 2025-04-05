@@ -1,6 +1,31 @@
 import '../styles/form.css'
+import { useState } from 'react';
 
 export default function FormDisplay() {
+
+    const [formValid, setFormValid] = useState(false);
+    const [emailError, setEmailError] = useState(''); // State to store email validation error
+
+    const validateEmail = (email) => {
+        // Regex for validating email format
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return emailRegex.test(email);
+    };
+
+    const handleInputChange = () => {
+        const name = document.getElementById('name').value.trim();
+        const email = document.getElementById('email').value.trim();
+
+        // Validate email format
+        if (email && !validateEmail(email)) {
+            setEmailError('Invalid email format');
+            setFormValid(false);
+        } else {
+            setEmailError('');
+            setFormValid(name !== '' && email !== '');
+        }
+    };
+
     return (
         <div className="container-form">
             <div className="form-section section-padding">
@@ -26,13 +51,18 @@ export default function FormDisplay() {
 
                     {/* Form fields */}
                     <div className="form-group">
-                        <label htmlFor="name">Name</label>
-                        <input type="text" id="name" className="form-input" placeholder='E.g. John Doe' />
+                        <label htmlFor="name">
+                            Name <span className="required">*</span>
+                        </label>
+                        <input type="text" id="name" className="form-input" placeholder='E.g. John Doe' onChange={handleInputChange} required />
                     </div>
 
                     <div className="form-group">
-                        <label htmlFor="email">Email</label>
-                        <input type="email" id="email" className="form-input" placeholder='E.g. john.doe@gmail.com' />
+                        <label htmlFor="email">
+                            Email <span className="required">*</span>
+                        </label>
+                        <input type="email" id="email" className="form-input" placeholder='E.g. john.doe@gmail.com' onChange={handleInputChange} required/>
+                        {emailError && <p className="error-message">{emailError}</p>}
                     </div>
 
                     <div className="form-group form-checkbox">
@@ -46,7 +76,7 @@ export default function FormDisplay() {
                         <p className="form-note">We collect this information to illustrate the diverse support from across the country 🌱 </p>
                     </div>
 
-                    <button className="primary-button">Sign our petition!</button>
+                    <button className="primary-button" disabled={!formValid}>Sign our petition!</button>
                 </div>
 
                 

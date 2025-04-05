@@ -94,6 +94,12 @@
     background-color: var(--color-text-primary);
 }
 
+.required {
+    color: #FF5C62;
+    font-weight: bold;
+
+}
+
 .form-note {
     font-size: 12px;
     font-weight: 400;

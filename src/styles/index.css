@@ -47,6 +47,12 @@ body {
   border: none;
 }
 
+.primary-button:disabled {
+  background-color: #5F6052; /* Disabled button color */
+  color: #1C1C1C;
+  cursor: not-allowed; /* Show "not allowed" cursor */
+}
+
 .secondary-button {
   font-weight: 700;
   font-size: 16px;
@@ -65,6 +71,13 @@ body {
   color: black; 
 }
 
+
+.error-message {
+  color: #f3afb2;
+  font-style: italic;
+  font-size: 14px;
+  margin-top: 2px;
+}
 
 
 
