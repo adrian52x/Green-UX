@@ -1,14 +1,20 @@
 import { useEffect } from "react";
-import "../styles/carbon-badge.css"; // we’ll create this next
+import "../styles/carbon-badge.css";
 
 export default function CarbonBadge() {
   useEffect(() => {
-    const existing = document.getElementById("wcb");
-    if (existing) {
+    //Check if the script is already in the document
+    const scriptAlreadyExists = document.querySelector(
+      'script[src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js"]'
+    );
+
+    const badgeContainer = document.getElementById("wcb");
+
+    if (!scriptAlreadyExists && badgeContainer) {
       const script = document.createElement("script");
       script.src = "https://unpkg.com/website-carbon-badges@1.1.3/b.min.js";
       script.defer = true;
-      existing.appendChild(script);
+      badgeContainer.appendChild(script);
     }
   }, []);
 
