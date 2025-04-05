@@ -5,7 +5,10 @@ export default function SolutionDisplay() {
         <div className="container-solution">
             <img src="./src/assets/backtree.svg" alt="backtree" className="backtree-solution-section__1" />
             <div className="solution-section section-padding">
-                <h2 className="solution-title">What can you do?</h2>
+                <div className="solution-header">
+                    <span className="solution-tag">The solution</span>
+                    <h2 className="solution-title">What can you do?</h2>
+                </div>
                 <div className="solution-grid">
                     <div className="solution-item">
                         <h3 className="solution-item-title">Support Sustainable Brands</h3>

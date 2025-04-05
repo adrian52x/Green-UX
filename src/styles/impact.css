@@ -116,16 +116,17 @@
         width: 100%;
     }
 
-    .impact-title {
+    .impact-header {
         width: 338px;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .impact-title {
         font-weight: 700;
         font-size: 32px;
-        /* margin: auto;
-        padding-top: 50px; */
-        margin-top: 0;
-        margin-bottom: 0;
-        margin-left: 50px;
-        padding-top: 50px;
+        padding-top: 10px;
+        height: 30px;
     }
 
     .impact-image {
