@@ -5,7 +5,7 @@ export default function Navbar() {
         <div className="container-navbar">
             <div className="navbar section-padding">
                 <div className="logo">
-                    <img src="./src/assets/logo-tree.svg" alt="Logo" className="logo-image" />
+                    <img src="/assets/logo-tree.svg" alt="Logo" className="logo-image" />
                     <span className="logo-text">BreatheForForests</span>
                 </div>
                 <div className="items">
@@ -14,7 +14,7 @@ export default function Navbar() {
                     <button className="secondary-button">Sign our petition!</button>
                 </div>
                 <div className="burger-menu">
-                    <img src="./src/assets/menu.png" alt="menu" className="menu-image" />
+                    <img src="/assets/menu.png" alt="menu" className="menu-image" />
                 </div>
             </div>
         </div>
