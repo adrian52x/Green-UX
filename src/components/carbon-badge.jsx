@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import "../styles/carbon-badge.css";
 
 export default function CarbonBadge() {
   useEffect(() => {
@@ -18,5 +17,6 @@ export default function CarbonBadge() {
     }
   }, []);
 
+  // we get a 503 = Service Unavailable, not our problem
   return <div id="wcb" className="carbonbadge wcb-d floating-badge"></div>;
 }

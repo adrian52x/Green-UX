@@ -5,7 +5,6 @@ import Hero from "./components/hero-display";
 import SolutionDisplay from "./components/solution-display";
 import FormDisplay from "./components/form-display";
 import FooterDisplay from "./components/footer-display";
-import CarbonBadge from "./components/carbon-badge";
 
 function App() {
   return (
@@ -26,8 +25,6 @@ function App() {
       <FormDisplay />
 
       <FooterDisplay />
-
-      <CarbonBadge />
     </>
   );
 }
