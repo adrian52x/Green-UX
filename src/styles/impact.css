@@ -10,10 +10,24 @@
     background: var(--color-primary);
 }
 
+.impact-header {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column; /* Stack tag and title vertically */
+    align-items: flex-start; /* Align both tag and title to the left */
+}
+
+.impact-tag {
+    font-weight: 700;
+    font-size: 16px;
+    color: #859462;
+}
+
 .impact-title {
     font-weight: 900;
     font-size: 56px;
-    margin-bottom: 40px;
+    margin-top: 0;
+    margin-bottom: 50px;
     color: var(--color-text-primary);
 }
 
@@ -106,15 +120,21 @@
         width: 338px;
         font-weight: 700;
         font-size: 32px;
-        margin: auto;
+        /* margin: auto;
+        padding-top: 50px; */
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 50px;
         padding-top: 50px;
     }
 
     .impact-image {
         width: 186px;
-        height: 331px;
+        height: 280px;
         transform: rotate(90deg);
-        margin: auto;
+        /* margin: auto; */
+        margin-top: 0;
+        margin-left: 145px;
     }
 
     .impact-image img {

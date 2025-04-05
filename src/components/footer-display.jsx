@@ -17,7 +17,7 @@ export default function FooterDisplay() {
                                 <img src="./src/assets/youtube-logo.png" alt="Logo" />
                             </div>
                             
-                            <button className="secondary-button">Share this petition!</button>
+                            <button className="secondary-button">Share this campaign!</button>
                         </div>
                         
                         <div className="others-links">

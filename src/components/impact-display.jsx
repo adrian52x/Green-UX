@@ -8,7 +8,10 @@ export default function ImpactDisplay() {
             <img src="./src/assets/backtree.svg" alt="backtree" className="backtree-impact-section__1" />
             <img src="./src/assets/backtree.svg" alt="backtree" className="backtree-impact-section__2" />
             <div className='impact-section section-padding'>
-                <h2 className="impact-title">The Hidden Cost of Palm Oil</h2>
+                <div className="impact-header">
+                    <span className="impact-tag">Palm Oil Awareness</span>
+                    <h2 className="impact-title">The Hidden Cost of Palm Oil</h2>
+                </div>
                 <div className="impact-subsection">
                     {/* Left: Image */}
                     <div className="impact-image">

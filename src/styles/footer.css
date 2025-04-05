@@ -30,6 +30,10 @@
     font-weight: 900;
 }
 
+.social-links button{
+    width: 200px;
+}
+
 .social-icons {
     display: flex;
     gap: 40px;
@@ -53,6 +57,7 @@
     line-height: 30px;
     text-decoration: underline;
     cursor: pointer;
+    opacity: 0.8;
 }
 
 
@@ -86,8 +91,45 @@
     }
 
     .footer-layout {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        width: 310px;
+        margin: 0 auto;
+        padding-top: 50px;
         gap: 20px;
+    }
+
+    .social-links {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+
+    .social-links h2 {
+        font-size: 16px;
+    }
+
+    .others-links {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .others-links h2 {
+        font-size: 16px;
+    }
+
+    .footer-line {
+        width: 338px;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    .footer-copyright {
+        padding-bottom: 20px;
+        margin-left: 50px;
     }
 
 }    

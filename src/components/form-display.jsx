@@ -6,9 +6,9 @@ export default function FormDisplay() {
             <div className="form-section section-padding">
                 <h2 className="form-title">Help us make a change!</h2>
 
-                {/* Sentence with icons and text */}
-                <p className="form-sentence">Every day, Danish consumers unknowingly support deforestation through products containing unsustainable palm oil. By signing this petition, you're urging the Danish Ministry of Environment to:</p>
                 <div className="wrapper">
+                    <p className="form-sentence">Every day, Danish consumers unknowingly support deforestation through products containing unsustainable palm oil. By signing this petition, you're urging the Danish Ministry of Environment to:</p>
+                
                     <div className="form-checklist">
                         <div className="form-check-item">
                             <img src="./src/assets/check.svg" alt="Check" className="form-check-icon" />
@@ -45,9 +45,11 @@ export default function FormDisplay() {
                         <input type="text" id="city" className="form-input" placeholder='E.g. Aarhus' />
                         <p className="form-note">We collect this information to illustrate the diverse support from across the country 🌱 </p>
                     </div>
+
+                    <button className="primary-button">Sign our petition!</button>
                 </div>
 
-                <button className="primary-button">Make a change</button>
+                
             </div>
         </div>
     )

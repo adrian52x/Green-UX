@@ -127,18 +127,32 @@
         padding: 0;
     }
 
-    .form-section .form-title {
-        font-size: 20px;
-        padding-top: 20px;
-        margin: 0;
+    .form-title {
+        width: 338px;
+        font-weight: 700;
+        font-size: 32px;
+        margin-top: 0;
+        margin-left: 55px;
+        padding-top: 50px;
     }
+
     .wrapper {
-        width: 100%;
+        width: 310px;
+        margin: 0 auto;
+        padding-bottom: 70px;
     }
 
     .form-sentence {
         width: 100%;
         font-size: 14px;
+    }
+
+    .form-check-item {
+        font-size: 14px;
+    }
+
+    .form-note {
+        text-align: left;
     }
 
 }
