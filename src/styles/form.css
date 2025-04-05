@@ -9,10 +9,24 @@
   background: var(--color-secondary);
 }
 
+.form-header {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column; /* Stack tag and title vertically */
+  align-items: flex-start; /* Align both tag and title to the left */
+}
+
+.form-tag {
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--color-text-primary);
+}
+
 .form-title {
   font-weight: 900;
   font-size: 56px;
-  padding-bottom: 50px;
+  margin-top: 0;
+  margin-bottom: 50px;
   color: var(--color-text-primary);
 }
 
@@ -94,9 +108,8 @@
 }
 
 .required {
-    color: #FF5C62;
-    font-weight: bold;
-
+  color: #ff5c62;
+  font-weight: bold;
 }
 
 .form-note {
@@ -130,13 +143,16 @@
     padding: 0;
   }
 
-  .form-title {
+  .form-header {
     width: 338px;
+    margin: auto;
+  }
+
+  .form-title {
     font-weight: 700;
     font-size: 32px;
-    margin-top: 0;
-    margin-left: 55px;
-    padding-top: 50px;
+    padding-top: 10px;
+    height: 30px;
   }
 
   .wrapper {

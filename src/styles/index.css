@@ -6,17 +6,18 @@ body {
 
 :root {
   font-family: Arial, sans-serif;
-  
+
   --section-padding: 20px 94px;
 
   /* Main colors */
-  --color-primary: #0F1E11;
+  --color-primary: #0f1e11;
   --color-secondary: #243324;
+  --color-button-primary: #adbe27;
+  --color-text-primary: #e6e6cf;
+}
 
-
-  --color-button-primary: #ADBE27;
-
-  --color-text-primary: #E6E6CF;
+html {
+  scroll-behavior: smooth;
 }
 
 /* .wrapper {
@@ -34,9 +35,12 @@ body {
   padding: var(--section-padding);
 }
 
-
-
 .primary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: var(--color-primary);
   width: 184px;
   height: 50px;
   border-radius: 100px;
@@ -45,18 +49,27 @@ body {
   font-size: 16px;
   cursor: pointer;
   border: none;
+  transition: background 0.3s ease;
+  box-sizing: border-box; /* include border in width/height */
+}
+
+.primary-button:hover {
+  background: transparent;
+  color: var(--color-button-primary);
+  border: 2px solid var(--color-button-primary);
 }
 
 .primary-button:disabled {
-  background-color: #5F6052; /* Disabled button color */
-  color: #1C1C1C;
+  background-color: #5f6052; /* Disabled button color */
+  color: #1c1c1c;
   cursor: not-allowed; /* Show "not allowed" cursor */
+  border: none;
 }
 
 .secondary-button {
   font-weight: 700;
   font-size: 16px;
-  color: var(--color-button-primary); 
+  color: var(--color-button-primary);
   background: transparent;
   border: 2px solid var(--color-button-primary);
   border-radius: 100px;
@@ -68,9 +81,8 @@ body {
 
 .secondary-button:hover {
   background: var(--color-button-primary);
-  color: black; 
+  color: black;
 }
-
 
 .error-message {
   color: #f3afb2;
@@ -78,14 +90,6 @@ body {
   font-size: 14px;
   margin-top: 2px;
 }
-
-
-
-
-
-
-
-
 
 /* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;

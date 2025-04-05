@@ -26,9 +26,12 @@ export default function FormDisplay() {
   };
 
   return (
-    <div className="container-form">
+    <section id="form" className="container-form">
       <div className="form-section section-padding">
-        <h2 className="form-title">Help us make a change!</h2>
+        <header className="form-header">
+          <span className="form-tag">Sign our petition!</span>
+          <h2 className="form-title">Help us make a change</h2>
+        </header>
 
         <div className="wrapper">
           <p className="form-sentence">
@@ -37,34 +40,37 @@ export default function FormDisplay() {
             petition, you're urging the Danish Ministry of Environment to:
           </p>
 
-          <div className="form-checklist">
-            <div className="form-check-item">
+          <ul className="form-checklist">
+            <li className="form-check-item">
               <img
                 src="/assets/check.svg"
                 alt="Check"
                 className="form-check-icon"
+                aria-hidden="true"
               />
               <span>Enforce clear palm oil labeling</span>
-            </div>
-            <div className="form-check-item">
+            </li>
+            <li className="form-check-item">
               <img
                 src="/assets/check.svg"
                 alt="Check"
                 className="form-check-icon"
+                aria-hidden="true"
               />
               <span>Demand full supply chain transparency</span>
-            </div>
-            <div className="form-check-item">
+            </li>
+            <li className="form-check-item">
               <img
                 src="/assets/check.svg"
                 alt="Check"
                 className="form-check-icon"
+                aria-hidden="true"
               />
               <span>
                 Ensure products sold in Denmark are deforestation-free
               </span>
-            </div>
-          </div>
+            </li>
+          </ul>
 
           {/* Form fields */}
           <div className="form-group">
@@ -120,6 +126,6 @@ export default function FormDisplay() {
           </button>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

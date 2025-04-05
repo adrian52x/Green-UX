@@ -17,7 +17,7 @@ export default function Hero() {
       <img src="/assets/stone.png" alt="bird" className="stone3" />
       <img src="/assets/stone.png" alt="bird" className="stone4" />
 
-      <div className="hero-section">
+      <section className="hero-section">
         <div className="hero-left ">
           <img
             src="/assets/backtree.svg"
@@ -33,14 +33,13 @@ export default function Hero() {
             rainforest <br />
             every second.
           </div>
-          <div className="hero-secondary-text">
-            Act now to protect what’s left!.
-          </div>
-          <button className="primary-button">
+          <p className="hero-secondary-text">Act now to protect what’s left!</p>
+
+          <a href="#form" className="primary-button">
             <span>Sign our petition!</span>
-          </button>
+          </a>
         </div>
-      </div>
+      </section>
     </div>
   );
 }
