@@ -1,38 +1,35 @@
-
-import StatsDisplay from './components/stats-display'
-import ImpactDisplay from './components/impact-display'
-import Navbar from './components/navbar'
-import Hero from './components/hero-display'
-import SolutionDisplay from './components/solution-display'
-import FormDisplay from './components/form-display'
-import FooterDisplay from './components/footer-display'
+import StatsDisplay from "./components/stats-display";
+import ImpactDisplay from "./components/impact-display";
+import Navbar from "./components/navbar";
+import Hero from "./components/hero-display";
+import SolutionDisplay from "./components/solution-display";
+import FormDisplay from "./components/form-display";
+import FooterDisplay from "./components/footer-display";
+import CarbonBadge from "./components/carbon-badge";
 
 function App() {
-	return (
-		<>
-			{/* <div className="wrapper">
+  return (
+    <>
+      {/* <div className="wrapper">
 				<div className="container"> */}
 
-					<Navbar/>
+      <Navbar />
 
-					<Hero />
+      <Hero />
 
-					<StatsDisplay />
+      <StatsDisplay />
 
-					<ImpactDisplay />
+      <ImpactDisplay />
 
-					<SolutionDisplay />
+      <SolutionDisplay />
 
-					<FormDisplay />
-					
-					<FooterDisplay />
+      <FormDisplay />
 
+      <FooterDisplay />
 
-				{/* </div>
-			</div> */}
-			
-		</>
-	)
+      <CarbonBadge />
+    </>
+  );
 }
 
-export default App
+export default App;

@@ -1,14 +1,6 @@
-import { useEffect } from "react";
 import "../styles/hero.css";
 
 export default function Hero() {
-  useEffect(() => {
-    const script = document.createElement("script");
-    script.src = "https://unpkg.com/website-carbon-badges@1.1.3/b.min.js";
-    script.defer = true;
-    document.body.appendChild(script);
-  }, []);
-
   return (
     <div className="container-hero">
       <img src="/assets/bird-up.png" alt="bird" className="bird__up1" />

@@ -1,0 +1,7 @@
+.floating-badge {
+  position: fixed;
+  bottom: 8px;
+  left: 16px;
+  z-index: 1000;
+  width: max-content;
+}
