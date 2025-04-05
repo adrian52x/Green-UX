@@ -11,15 +11,15 @@ export default function FormDisplay() {
                 
                     <div className="form-checklist">
                         <div className="form-check-item">
-                            <img src="./src/assets/check.svg" alt="Check" className="form-check-icon" />
+                            <img src="/assets/check.svg" alt="Check" className="form-check-icon" />
                             <span>Enforce clear palm oil labeling</span>
                         </div>
                         <div className="form-check-item">
-                            <img src="./src/assets/check.svg" alt="Check" className="form-check-icon" />
+                            <img src="/assets/check.svg" alt="Check" className="form-check-icon" />
                             <span>Demand full supply chain transparency</span>
                         </div>
                         <div className="form-check-item">
-                            <img src="./src/assets/check.svg" alt="Check" className="form-check-icon" />
+                            <img src="/assets/check.svg" alt="Check" className="form-check-icon" />
                             <span>Ensure products sold in Denmark are deforestation-free</span>
                         </div>
                     </div>

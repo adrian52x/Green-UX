@@ -4,30 +4,30 @@ export default function Hero() {
     return (
         <div className="container-hero">
 
-            <img src="./src/assets/bird-up.png" alt="bird" className="bird__up1" />
-            <img src="./src/assets/bird-up.png" alt="bird" className="bird__up2" />
-            <img src="./src/assets/bird-up.png" alt="bird" className="bird__up3" />
-            <img src="./src/assets/bird-up.png" alt="bird" className="bird__up4" />
+            <img src="/assets/bird-up.png" alt="bird" className="bird__up1" />
+            <img src="/assets/bird-up.png" alt="bird" className="bird__up2" />
+            <img src="/assets/bird-up.png" alt="bird" className="bird__up3" />
+            <img src="/assets/bird-up.png" alt="bird" className="bird__up4" />
 
-            <img src="./src/assets/bird-down.png" alt="bird" className="bird__down1" />
-            <img src="./src/assets/bird-down.png" alt="bird" className="bird__down2" />
-            <img src="./src/assets/bird-down.png" alt="bird" className="bird__down3" />
+            <img src="/assets/bird-down.png" alt="bird" className="bird__down1" />
+            <img src="/assets/bird-down.png" alt="bird" className="bird__down2" />
+            <img src="/assets/bird-down.png" alt="bird" className="bird__down3" />
 
-            <img src="./src/assets/stone.png" alt="bird" className="stone1" />
-            <img src="./src/assets/stone.png" alt="bird" className="stone2" />
-            <img src="./src/assets/stone.png" alt="bird" className="stone3" />
-            <img src="./src/assets/stone.png" alt="bird" className="stone4" />
+            <img src="/assets/stone.png" alt="bird" className="stone1" />
+            <img src="/assets/stone.png" alt="bird" className="stone2" />
+            <img src="/assets/stone.png" alt="bird" className="stone3" />
+            <img src="/assets/stone.png" alt="bird" className="stone4" />
 
 
             <div className="hero-section">
                 <div className="hero-left ">
                     <img
-                        src="./src/assets/backtree.svg"
+                        src="/assets/backtree.svg"
                         alt="Back Tree"
                         className="backtree"
                     />
                     <img
-                        src="./src/assets/tree.svg"
+                        src="/assets/tree.svg"
                         alt="Tree"
                         className="tree"
                     />

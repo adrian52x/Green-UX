@@ -5,8 +5,8 @@ import '../styles/impact.css'
 export default function ImpactDisplay() {
     return (
         <div className="container-impact">
-            <img src="./src/assets/backtree.svg" alt="backtree" className="backtree-impact-section__1" />
-            <img src="./src/assets/backtree.svg" alt="backtree" className="backtree-impact-section__2" />
+            <img src="/assets/backtree.svg" alt="backtree" className="backtree-impact-section__1" />
+            <img src="/assets/backtree.svg" alt="backtree" className="backtree-impact-section__2" />
             <div className='impact-section section-padding'>
                 <div className="impact-header">
                     <span className="impact-tag">The problem</span>
@@ -15,13 +15,13 @@ export default function ImpactDisplay() {
                 <div className="impact-subsection">
                     {/* Left: Image */}
                     <div className="impact-image">
-                        <img src="./src/assets/impact.webp" alt="Palm Oil Impact" />
+                        <img src="/assets/impact.webp" alt="Palm Oil Impact" />
                     </div>
                     {/* Right: Text */}
                     <div className="impact-content">
                         <div className="impact-content-item">
                             <div className="impact-content-item-header">
-                                <img src="./src/assets/icon1-small.svg" alt="Icon" />
+                                <img src="/assets/icon1-small.svg" alt="Icon" />
                                 <h3>Biodiversity Loss</h3>
                             </div>
                             <div className="impact-content-item-text">
@@ -32,7 +32,7 @@ export default function ImpactDisplay() {
                         </div>
                         <div className="impact-content-item">
                             <div className="impact-content-item-header">
-                                <img src="./src/assets/icon2-small.svg" alt="Icon" />
+                                <img src="/assets/icon2-small.svg" alt="Icon" />
                                 <h3>Climate Impact</h3>
                             </div>
                             <div className="impact-content-item-text">
@@ -43,7 +43,7 @@ export default function ImpactDisplay() {
                         </div>
                         <div className="impact-content-item">
                             <div className="impact-content-item-header">
-                                <img src="./src/assets/icon3-small.svg" alt="Icon" />
+                                <img src="/assets/icon3-small.svg" alt="Icon" />
                                 <h3>Soil and Water Pollution</h3>
                             </div>
                             <div className="impact-content-item-text">

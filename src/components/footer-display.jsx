@@ -8,13 +8,13 @@ export default function FooterDisplay() {
                     <div className="footer-layout">
                         <div className="social-links">
                             <div className="logo">
-                                <img src="./src/assets/logo-tree.svg" alt="Logo" className="logo-image" />
+                                <img src="/assets/logo-tree.svg" alt="Logo" className="logo-image" />
                                 <h2>BreatheForForests</h2>
                             </div>
                             <div className="social-icons">
-                                <img src="./src/assets/facebook-logo.png" alt="Logo" />
-                                <img src="./src/assets/instagram-logo.png" alt="Logo"  />
-                                <img src="./src/assets/youtube-logo.png" alt="Logo" />
+                                <img src="/assets/facebook-logo.png" alt="Logo" />
+                                <img src="/assets/instagram-logo.png" alt="Logo"  />
+                                <img src="/assets/youtube-logo.png" alt="Logo" />
                             </div>
                             
                             <button className="secondary-button">Share this campaign!</button>
