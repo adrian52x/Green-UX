@@ -30,14 +30,13 @@ export default function FormDisplay() {
       <div className="form-section section-padding">
         <header className="form-header">
           <span className="form-tag">Sign our petition!</span>
-          <h2 className="form-title">Help us make a change</h2>
+          <h2 className="form-title">Still scrolling while forests 
+          are burning?</h2>
         </header>
 
         <div className="wrapper">
           <p className="form-sentence">
-            Every day, Danish consumers unknowingly support deforestation
-            through products containing unsustainable palm oil. By signing this
-            petition, you're urging the Danish Ministry of Environment to:
+          You can ignore this petition — and pretend it’s not your problem. Or you can speak up now and push for a real change. By signing this petition, you're urging the Danish Ministry of Environment to:
           </p>
 
           <ul className="form-checklist">
@@ -102,11 +101,6 @@ export default function FormDisplay() {
             {emailError && <p className="error-message">{emailError}</p>}
           </div>
 
-          <div className="form-group form-checkbox">
-            <input type="checkbox" id="updates" />
-            <label htmlFor="updates">Receive updates</label>
-          </div>
-
           <div className="form-group">
             <label htmlFor="city">City</label>
             <input
@@ -115,10 +109,16 @@ export default function FormDisplay() {
               className="form-input"
               placeholder="E.g. Aarhus"
             />
-            <p className="form-note">
-              We collect this information to illustrate the diverse support from
-              across the country 🌱{" "}
-            </p>
+          </div>
+
+          <div className="form-group">
+            <label htmlFor="phone">Phone number</label>
+            <input
+              type="number"
+              id="phone"
+              className="form-input"
+              placeholder="E.g. 0878 878 878"
+            />
           </div>
 
           <button className="primary-button" disabled={!formValid}>

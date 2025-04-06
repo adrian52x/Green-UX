@@ -89,14 +89,14 @@ export default function Hero() {
 
         <div className="hero-right">
           <div className="hero-main-text">
-            We’re losing <br />
-            rainforest <br />
-            every second.
+            Every second you <br />
+            wait, another tree <br />
+            is gone.
           </div>
-          <p className="hero-secondary-text">Act now to protect what’s left!</p>
+          <p className="hero-secondary-text">And you're still deciding?</p>
 
           <a href="#form" className="primary-button">
-            <span>Sign our petition!</span>
+            <span>Fine, I'll sign the petition</span>
           </a>
         </div>
       </section>

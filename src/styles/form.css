@@ -10,6 +10,7 @@
 }
 
 .form-header {
+  width: 843px;
   padding-top: 50px;
   display: flex;
   flex-direction: column; /* Stack tag and title vertically */
@@ -35,7 +36,7 @@
 }
 
 .form-sentence {
-  width: 710px;
+  width: 834px;
   font-weight: 400;
   font-size: 18px;
   text-align: left;
@@ -118,6 +119,10 @@
   text-align: right;
   color: var(--color-text-primary);
   margin-top: 5px;
+}
+
+.wrapper button {
+  margin-top: 20px;
 }
 
 .form-button {
