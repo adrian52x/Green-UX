@@ -51,7 +51,7 @@ export default function Navbar() {
                 <div className="popup">
                     <div className="popup-content">
                         <div className="popup-header">
-                            <h2 className="popup-title">Still haven’t shared?</h2>
+                            <h2 className="popup-title">Still haven’t signed?</h2>
                             <button className="popup-close" onClick={handleClosePopup}>
                                 X
                             </button>
@@ -65,7 +65,7 @@ export default function Navbar() {
 
                         {/* Close button */}
                         <button className="primary-button" onClick={handleAcceptPopup}>
-                            Okay, okay — I’ll share
+                            Okay, okay — I’ll sign now
                         </button>
                     </div>
                 </div>
