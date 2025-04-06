@@ -197,10 +197,12 @@
     margin-top: 100px;
     margin-left: 46px;
     padding: 0;
+    z-index: 2000;
   }
 
   .hero-main-text {
     font-size: 40px; /* Adjust font size for mobile */
+    z-index: 2000;
   }
 
   .backtree {

@@ -35,7 +35,11 @@ export default function ImpactDisplay() {
           <div className="impact-content">
             <article className="impact-content-item">
               <header className="impact-content-item-header">
-                <img src="/assets/icon1-small.svg" alt="Icon" />
+                <img
+                  src="/assets/icon1-small.svg"
+                  alt="Icon"
+                  aria-hidden="true"
+                />
                 <h3>Biodiversity Loss</h3>
               </header>
               <div className="impact-content-item-text">
@@ -50,7 +54,11 @@ export default function ImpactDisplay() {
 
             <article className="impact-content-item">
               <header className="impact-content-item-header">
-                <img src="/assets/icon2-small.svg" alt="Icon" />
+                <img
+                  src="/assets/icon2-small.svg"
+                  alt="Icon"
+                  aria-hidden="true"
+                />
                 <h3>Climate Impact</h3>
               </header>
               <div className="impact-content-item-text">
@@ -65,7 +73,11 @@ export default function ImpactDisplay() {
 
             <article className="impact-content-item">
               <header className="impact-content-item-header">
-                <img src="/assets/icon3-small.svg" alt="Icon" />
+                <img
+                  src="/assets/icon3-small.svg"
+                  alt="soil and water icon"
+                  aria-hidden="true"
+                />
                 <h3>Soil and Water Pollution</h3>
               </header>
               <div className="impact-content-item-text">
